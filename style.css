@@ -308,6 +308,20 @@ video:hover {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
 /* ========================================
    BUTTONS
    ======================================== */
@@ -923,3 +937,4 @@ footer p {
     animation: spin 0.8s linear infinite;
     margin: 20px auto;
 }
+
